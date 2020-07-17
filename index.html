@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Display map navigation controls</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    <script src="js/store-data.js"></script>
+</head>
+
+<body>
+    <div class="title">Store locator</div>
+    <div class="input-box">
+        <input type="text" placeholder="search">
+        <i class="fas fa-search"></i>
+    </div>
+    <div class="stores">
+        <div class="stores-address">
+            4693,MALOYA COLONY
+            <div class="stores-phone-number">
+                <i class="fas fa-phone-alt"></i>98723-56175
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div id="map"></div>
+</body>
+<script src="js/index.js"></script>
+
+</html>

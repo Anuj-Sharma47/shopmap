@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100vh;
+    width: 100vw;
+}
+
+.title {
+    font-size: 50px;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+    z-index: 5;
+    color: mediumvioletred;
+}
+
+.input-box {
+    width: 417px;
+    height: 50px;
+    position: absolute;
+    z-index: 5;
+    background-color: #585751;
+    margin-top: 172px;
+    margin-left: 115px;
+    border-radius: 36px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-box input {
+    color: white;
+    line-height: 44px;
+    background-color: transparent;
+    font-size: 25px;
+    margin-left: 19px;
+    outline: none;
+    border-color: transparent;
+}
+
+.input-box i {
+    font-size: 33px;
+    margin-left: 30px;
+    margin-top: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.stores {
+    width: 390px;
+    bottom: 0px;
+    position: absolute;
+    z-index: 9;
+    background-color: white;
+    top: 243px;
+    left: 129px;
+    border-radius: 27px;
+    font-size: 30px;
+    /* overflow-y: scroll; */
+    overflow-y: scroll;
+    background-color: mediumvioletred;
+}
+
+.stores .stores-address {
+    cursor: pointer;
+    padding-top: 16px;
+    padding-left: 18px;
+    margin: 12px;
+    font-weight: bolder;
+    font-family: serif;
+}
+
+.stores .stores-address:hover {
+    background-color: grey;
+    color: honeydew;
+    border-radius: 15px;
+    padding-top: 16px;
+    padding-left: 18px;
+    margin: 12px;
+    opacity: 0.6;
+    color: aqua;
+    font-weight: bolder;
+    font-family: serif;
+}
+
+.stores .stores-address .stores-phone-number {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 19px;
+    padding-bottom: 19px;
+}
+
+.stores .stores-address .stores-phone-number i {
+    padding-right: 5px;
+}
+
+.stores .stores-address .stores-phone-number i:hover {
+    color: green;
+}
+
+#marker {
+    background-image: url('https://www.pinclipart.com/picdir/big/376-3766580_1024-x-1024-3-push-pin-icon-png.png');
+    background-size: cover;
+    /* width: 30px;
+    height: 50px; */
+}
+
+#map .mapboxgl-popup .mapboxgl-popup-content {
+    position: relative;
+    pointer-events: auto;
+}
+
+.box .box1 {
+    border-bottom: 0.5px solid dimgrey;
+    padding: 6px;
+}
+
+.box .box1 .box1a {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.box .box1 .box1b {
+    font-style: italic;
+}
+
+.box .box2 .box2a {
+    display: flex;
+    padding-top: 8px;
+}
+
+.box .box2 .box2a .box2a1 {
+    padding-left: 3px;
+    background-color: blueviolet;
+    padding-right: 5px;
+    color: white;
+    border-radius: 34px;
+    margin-right: 10px;
+}
+
+.box .box2 .box2b {
+    display: flex;
+    padding-top: 8px;
+}
+
+.box .box2 .box2b .box2b1 {
+    padding-left: 3px;
+    background-color: blueviolet;
+    padding-right: 5px;
+    color: white;
+    border-radius: 34px;
+    margin-right: 10px;
+}
